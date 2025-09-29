@@ -1,13 +1,20 @@
 {
   "name": "dlxcet",
   "version": "1.0.0",
-  "description": "CLI tool for experiments and viva questions",
+  "description": "CLI tool for experiments",
   "main": "index.js",
-  "bin": {
-    "dlxcet": "./index.js"
-  },
   "type": "module",
-  "keywords": ["cli", "experiments", "dlxcet"],
-  "author": "Your Name",
+  "bin": {
+    "dlxcet": "index.js"
+  },
+  "scripts": {
+    "test": "node --version"
+  },
+  "keywords": [
+    "cli",
+    "experiments",
+    "dlxcet"
+  ],
+  "author": "TXET",
   "license": "MIT"
 }
